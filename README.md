@@ -4,7 +4,7 @@ For our coding challenge, we would like to create a simple program that takes an
 - The CSV may not be altered
 - The Shipcloud SCOUT system must be used for booking shipments.
 - The tracking numbers must be printed to the console **after** all shipments have been booked.
-#optional
+# optional
 - Saving PDF labels to disk.
 # Misc info
 All shipments should be booked using a customer with accountcode 'SHIPCL'.\
