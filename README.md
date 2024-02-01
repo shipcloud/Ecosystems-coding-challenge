@@ -7,6 +7,8 @@ For our coding challenge, we would like to create a simple program that takes an
 # optional
 - Saving PDF labels to disk.
 # Misc info
+You are allowed to use third party libraries within reason.\
+You are allowed to use the internet to look stuff up.\
 All shipments should be booked using a customer with accountcode 'SHIPCL'.\
 All weights in the CSV are in KG.\
 All dimensions in the CSV are in CM.\
