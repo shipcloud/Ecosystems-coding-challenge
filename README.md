@@ -20,7 +20,7 @@ Create a program that processes a CSV file and books shipments using the Shipclo
 - All weights in the CSV are in **kilograms (KG)**.
 - All dimensions in the CSV are in **centimeters (CM)**.
 - The CSV may include both **single** and **multi-colli** shipments.
-- All shipments should be sent our Shipcloud office in Madrid:
+- All shipments should be sent to our Shipcloud office in Madrid:
 
 ```
 Shipcloud Madrid
