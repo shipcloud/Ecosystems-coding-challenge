@@ -1,8 +1,8 @@
 ﻿DeliveryNumber;DeliveryPlanCode;ShipToAddressline1;ShipToAddressline2;ShipToAddressline3;ShipToStreet;ShipToHouseNumber;ShipToCity;ShipToPostalCode;ShipToCountry;ParcelWeight;ParcelLength;ParcelWidth;ParcelHeight
-CHALLENGE.1;725;Plaza españa;;;C. de La Alberca;48;Salamanca;37007;ES;4;20;10;40
-CHALLENGE.2;725;Bar restaurante Casa Lin;;;Av. Telares;3;Avilés;33401;ES;1;40;20;10
-CHALLENGE.3;725;Parking Hermanos Maristas;;;Carril del Picón;5;Granada;18006;ES;2;50;20;10
-CHALLENGE.4;725;La Gruta del Goblin;;;C. Doctor Juan Negrín;158;Arrecife;35500;ES;10;30;30;30
-CHALLENGE.4;725;La Gruta del Goblin;;;C. Doctor Juan Negrín;158;Arrecife;35500;ES;7;20;20;20
-CHALLENGE.5;725;Burger King Madrid;;;C.Gran Vía;69;Madrid;28013;ES;6;25;10;15
-CHALLENGE.6;725;Colegio Maravillas;;;Calle Prof. Santiago Rey;2;Benalmádena;29630;ES;3;37;20;10
+CHALLENGE.1;SEND_ES_EXPRESS;Plaza españa;;;C. de La Alberca;48;Salamanca;37007;ES;4;20;10;40
+CHALLENGE.2;SEND_ES_EXPRESS;Bar restaurante Casa Lin;;;Av. Telares;3;Avilés;33401;ES;1;40;20;10
+CHALLENGE.3;SEND_ES_EXPRESS;Parking Hermanos Maristas;;;Carril del Picón;5;Granada;18006;ES;2;50;20;10
+CHALLENGE.4;SEND_ES_EXPRESS;La Gruta del Goblin;;;C. Doctor Juan Negrín;158;Arrecife;35500;ES;10;30;30;30
+CHALLENGE.4;SEND_ES_EXPRESS;La Gruta del Goblin;;;C. Doctor Juan Negrín;158;Arrecife;35500;ES;7;20;20;20
+CHALLENGE.5;SEND_ES_EXPRESS;Burger King Madrid;;;C.Gran Vía;69;Madrid;28013;ES;6;25;10;15
+CHALLENGE.6;SEND_ES_EXPRESS;Colegio Maravillas;;;Calle Prof. Santiago Rey;2;Benalmádena;29630;ES;3;37;20;10
