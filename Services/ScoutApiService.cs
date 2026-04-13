@@ -8,7 +8,7 @@ namespace Shipcloud.CodingChallenge.Services
     /// <summary>
     /// Communicates with the Shipcloud SCOUT API.
     /// </summary>
-    public class ScoutApiService
+    public class ScoutApiService : IDisposable
     {
         private readonly HttpClient _httpClient;
         private string _authToken = string.Empty;
@@ -84,5 +84,8 @@ namespace Shipcloud.CodingChallenge.Services
 
             return Convert.FromBase64String(labelUrlOrBase64);
         }
+
+        /// <inheritdoc/>
+        public void Dispose() => _httpClient.Dispose();
     }
 }

@@ -44,7 +44,7 @@ namespace Shipcloud.CodingChallenge
             // ----------------------------------------------------------------
             Console.WriteLine("Authenticating with SCOUT API...");
 
-            var apiService = new ScoutApiService(apiUrl);
+            using var apiService = new ScoutApiService(apiUrl);
             await apiService.AuthenticateAsync(email, password);
 
             Console.WriteLine("Authentication successful.");
@@ -75,10 +75,8 @@ namespace Shipcloud.CodingChallenge
                 var recipientAddress = new Address
                 {
                     Name1 = first.ShipToAddressline1,
-                    Name2 = string.IsNullOrWhiteSpace(first.ShipToAddressline2)
-                        ? null : first.ShipToAddressline2,
-                    Name3 = string.IsNullOrWhiteSpace(first.ShipToAddressline3)
-                        ? null : first.ShipToAddressline3,
+                    Name2 = NullIfWhitespace(first.ShipToAddressline2),
+                    Name3 = NullIfWhitespace(first.ShipToAddressline3),
                     Street = first.ShipToStreet,
                     HouseNumber = first.ShipToHouseNumber,
                     City = first.ShipToCity,
@@ -158,5 +156,8 @@ namespace Shipcloud.CodingChallenge
                 }
             }
         }
+
+        private static string? NullIfWhitespace(string value) =>
+            string.IsNullOrWhiteSpace(value) ? null : value;
     }
 }
